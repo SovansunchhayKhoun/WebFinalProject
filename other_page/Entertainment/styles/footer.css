@@ -1,0 +1,420 @@
+footer{
+  font-family: 'Inter';
+  padding: 70px 50px 50px 50px;
+  box-shadow:0 -1px 10px rgba(0,0,0,0.25);
+}
+
+.footer-content-wrap{
+  display: flex;
+  flex-direction: column;
+  row-gap: 62px;
+  position: relative;
+  bottom: 0;
+  justify-content: space-evenly;
+}
+
+.Contact,
+.About-Us,
+.address,
+.News{
+  width: 350px;
+  font-family: 'Inter';
+}
+
+.line{
+  margin-right: 64px;
+  margin-left: 64px;
+  border-radius: 40px;
+  border-right: 2px solid black;
+}
+
+.Contact .title,
+.About-Us .title,
+.address .title,
+.News .title{
+  display: inline-block;
+  margin-bottom: 32px;
+  font-size: 1.7em;
+  font-weight: 500;
+}
+
+.address .icons{
+  width: 48px;
+  height: 48px;
+  vertical-align: middle;
+  margin-right: 16px;
+}
+
+.Contact .description,
+.About-Us .description,
+.address .description{
+  display: flex;
+  justify-content: center;
+  font-size: 1em;
+  line-height: 1.7em;
+}
+
+.News ul{
+  margin: 0;
+  list-style: none;
+  padding-left: 0;
+}
+
+.News ul li{
+  font-size: 1em;
+  line-height: 1.7em;
+}
+
+.News ul li a{
+  transition: all 300ms;
+}
+
+.News ul li a:hover{
+  color: rgba(81, 115, 236, 1) !important;
+  padding-bottom: 3px;
+  border-bottom: 2px solid rgba(81, 115, 236, 1);
+}
+
+.Contact .description{
+  display:inline-flex;
+  flex-direction: column;
+}
+
+.Contact .description #member{
+  display: inline-block;
+}
+
+.Contact .description #member:hover{
+  cursor: pointer;
+}
+
+.Contact .description #member #tooltip{
+  display: none;
+  transition: all 300ms;
+}
+
+.Contact .description #member:hover #tooltip{
+  cursor: pointer;
+  display: block;
+  opacity: 1;
+  margin-top: 10px;
+  padding: 10px;
+  border-top: 2px solid black;
+  border-right: 2px solid black;
+  border-top-right-radius: 40px;
+  animation: dropDown 0.15s ease-out 0.15s both;
+}
+
+.Contact .description #member #tooltip a{
+  display: block;
+  padding: 6px;
+}
+
+.Contact .description #member #tooltip a .icons{
+  width: 36px;
+  height: 36px;
+  border-radius: 10px;
+  vertical-align: middle;
+  margin-right: 12px;
+}
+
+.Contact .description #member .arrow_carrot-down{
+  vertical-align: middle;
+  font-size: 0;
+  transition: all 300ms;
+}
+
+.Contact .description #member{
+  margin: 0;
+  display: inline-block;
+}
+
+.Contact .description #member #tooltip a{
+  font-size: 0.9em;
+}
+
+.Contact .description #member #tooltip a:hover .icons{
+  transition-timing-function: linear;
+  transition-duration: 0.15s;
+  transform: scale(1.1);
+}
+
+.Contact .description #member:hover .arrow_carrot-down{
+  cursor: pointer;
+  animation: left-to-right 500ms ease-in-out alternate 2;
+  font-size: 1.3em;
+}
+
+hr{
+  margin-top: 62px;
+  border: none;
+  border-top: 2px solid black;
+}
+
+.read-more .arrow_right{
+  cursor: pointer;
+  font-size: 0;
+  transition: all 300ms;
+}
+
+.read-more:hover .arrow_right{
+  font-size: 1rem;
+  animation: left-to-right 500ms ease-in-out alternate 2;
+}
+
+@media only screen and (max-width: 1024px){
+  
+  .d-flex.justify-content-between{
+    flex-direction: column;
+  }
+
+  .footer-content-wrap{
+    flex-direction: row;
+  }
+
+  .Contact,
+  .About-Us,
+  .address,
+  .News{
+    width: 600px;
+    margin-bottom: 16px;
+    border-bottom: 1px solid black;
+  }
+  
+  .end,
+  .Contact .title,
+  .About-Us .title,
+  .address .title,
+  .News .title{
+    font-size: 1.3em !important;
+    margin-bottom: 12px;
+  }
+  .Contact .description #member #tooltip a .icons,
+  .address .icons{
+    width: 28px;
+    height: 28px;
+  }
+  .Contact .description #member #tooltip a .icons{
+    border-radius: 4px;
+  }
+  
+  .News ul li,
+  .Contact .description,
+  .About-Us .description,
+  .address .description{
+    font-size: 0.8em;
+    margin-bottom: 16px;
+    width: 600px;
+  }
+  
+  .Contact .description #member #tooltip a{
+    font-size: 1em;
+    margin-bottom: 0;
+  }
+
+  .News ul{
+    margin-bottom: 16px;
+  }
+  
+  .News ul li{
+    margin-bottom: 0;
+  }
+  
+  .Contact .title{
+    display: block;
+  }
+  
+  .Contact .description{
+    flex-direction: column;
+  }
+  
+  .Contact .description #member{
+    display: flex;
+    align-items: center;
+  }
+  
+  .Contact .description #member:hover .arrow_carrot-down{
+    cursor: pointer;
+    animation: left-to-right2 500ms ease-in-out 1;
+    font-size: 1.3em;
+  }
+  
+  .Contact .description #member:hover #tooltip{
+    padding: 2px;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-top-right-radius: 20px;
+  }
+  hr{
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 768px){
+  footer{
+    /* display: flex; */
+    /* flex-direction: column; */
+    align-items: center;
+    padding: 20px;
+  }
+  .footer-content-wrap{
+    flex-direction: column;
+  }
+  .Contact,
+  .About-Us,
+  .address,
+  .News{
+    width: 600px;
+    margin-bottom: 16px;
+    border-bottom: 1px solid black;
+  }
+  
+  .end,
+  .Contact .title,
+  .About-Us .title,
+  .address .title,
+  .News .title{
+    font-size: 1.3em !important;
+    margin-bottom: 12px;
+  }
+  .Contact .description #member #tooltip a .icons,
+  .address .icons{
+    width: 28px;
+    height: 28px;
+  }
+  .Contact .description #member #tooltip a .icons{
+    border-radius: 4px;
+  }
+  
+  .News ul li,
+  .Contact .description,
+  .About-Us .description,
+  .address .description{
+    font-size: 0.8em;
+    margin-bottom: 16px;
+    width: 600px;
+  }
+  
+  .Contact .description #member #tooltip a{
+    font-size: 1em;
+    margin-bottom: 0;
+  }
+
+  .News ul{
+    margin-bottom: 16px;
+  }
+  
+  .News ul li{
+    margin-bottom: 0;
+  }
+  
+  .Contact .title{
+    display: block;
+  }
+  
+  .Contact .description{
+    flex-direction: column;
+  }
+  
+  .Contact .description #member{
+    display: flex;
+    align-items: center;
+  }
+  
+  .Contact .description #member:hover .arrow_carrot-down{
+    cursor: pointer;
+    animation: left-to-right2 500ms ease-in-out 1;
+    font-size: 1.3em;
+  }
+  
+  .Contact .description #member:hover #tooltip{
+    padding: 2px;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-top-right-radius: 20px;
+  }
+  hr{
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 600px){
+  footer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+  }
+  .footer-content-wrap{
+    flex-direction: column;
+  }
+  .Contact,
+  .About-Us,
+  .address,
+  .News{
+    width: 300px;
+    margin-bottom: 16px;
+    border-bottom: 1px solid black;
+  }
+  
+  .end,
+  .Contact .title,
+  .About-Us .title,
+  .address .title,
+  .News .title{
+    font-size: 1.2em !important;
+    margin-bottom: 12px;
+  }
+  .Contact .description #member #tooltip a .icons,
+  .address .icons{
+    width: 24px;
+    height: 24px;
+  }
+  .Contact .description #member #tooltip a .icons{
+    border-radius: 4px;
+  }
+  
+  .News ul li,
+  .Contact .description,
+  .About-Us .description,
+  .address .description{
+    font-size: 0.8em;
+    margin-bottom: 16px;
+    width: 300px;
+  }
+  
+  .Contact .description #member #tooltip a{
+    font-size: 0.8em;
+    margin-bottom: 0;
+  }
+
+  .News ul li{
+    margin-bottom: 0;
+  }
+  
+  .Contact .title{
+    display: block;
+  }
+  
+  .Contact .description{
+    flex-direction: column;
+  }
+  
+  .Contact .description #member{
+    display: flex;
+    align-items: center;
+  }
+  
+  .Contact .description #member:hover .arrow_carrot-down{
+    cursor: pointer;
+    animation: left-to-right2 500ms ease-in-out 1;
+    font-size: 1.2em;
+  }
+  
+  .Contact .description #member:hover #tooltip{
+    padding: 2px;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-top-right-radius: 20px;
+  }
+}

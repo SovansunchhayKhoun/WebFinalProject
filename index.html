@@ -1,0 +1,374 @@
+<!-- #add-notification-on-nav-bar -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400;500;600;700&family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet">
+  <title>Home</title>
+  <link rel="stylesheet" href="styles/general.css">
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/nav.css">
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/footer.css">
+  <link rel="stylesheet" href="styles/keyframes.css">
+  <link rel="stylesheet" href="resources/HTML CSS/style.css">
+</head>
+
+<body>
+  <section id="home"></section>
+  <header class="">
+    <div class="web-logo">
+      <a href="#home">
+        <img src="resources/web-logo.jpg" alt="">
+      </a>
+    </div>
+  </header>
+  <div style="background: linear-gradient(-100deg,rgba(255,255,255,1) 5%, #b8dbe8);" class="container-fluid sticky-top p-2">
+    <div class="stats d-flex justify-content-center">
+      <ul class="d-inline-block">
+        <li class="hover-underline-animation"><a href="#home">Home</a></li>
+        <li class="hover-underline-animation"><a href="other_page/aboutUs.html">About Us</a></li>
+        <li class="hover-underline-animation">
+          <a class="disabled" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">
+            News<span class="arrow_carrot-down"></span>
+          </a>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <a class="dropdown-item" href="#Sport">Sport</a>
+            <a class="dropdown-item" href="#Technology">Technology</a>
+            <a class="dropdown-item" href="#Society">Society</a>
+            <a class="dropdown-item" href="#Entertainment">Entertainment</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <main style="margin-top: 64px;">
+      <div id="indicator" class="carousel slide container m-auto" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#indicator" data-slide-to="0" class="active"></li>
+          <li data-target="#indicator" data-slide-to="1"></li>
+          <li data-target="#indicator" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <a href="other_page/entertainment.html">
+              <img src="resources/bg-img/enter-bg.jpg" class="d-block w-100" alt="First slide">
+              <div class="carousel-caption">
+                <h1 class="col">
+                  Entertainment
+                </h1>
+              </div>
+            </a>
+          </div>
+          <div class="carousel-item">
+            <a href="other_page/society.html">
+              <img src="resources/bg-img/society-bg.jpg" class="d-block w-100" alt="Second slide">
+              <div class="carousel-caption">
+                <h1 class="col">
+                  Society
+                </h1>
+              </div>
+            </a>
+          </div>
+          <div class="carousel-item">
+            <a href="other_page/tech.html">
+              <img src="resources/bg-img/tech-bg.jpg" class="d-block w-100" alt="Third slide">
+              <div class="carousel-caption">
+                <h1 class="col">
+                  Technology
+                </h1>
+              </div>
+            </a>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#indicator" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#indicator" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    <div id="Technology" class="m-auto p-0 col-6 blue-bg-w">
+      <div class="mt-5 mb-5 w-100">
+        <section style="background-color: rgb(20, 20, 65);" id="tech-bluebg"
+          class="w-100 d-flex justify-content-center border text-white">
+          <a style="font-size: 2.5em;" class="info-title w-100 text-center text-white"
+            href="other_page/tech.html">Technology</a>
+        </section>
+      </div>
+    </div>
+    <div class="wrapper-tech mb-5">
+      <div class="d-flex justify-content-center">
+        <div class="d-inline-flex flex-column align-items-end">
+          <div class="news-grid-wrap">
+            <div class="news-card">
+              <a href="other_page/Technology/other-tech-page/new1.html">
+               <div class="news-pic">
+                  <img src="other_page/Technology/new1 image/1.jpg" alt="">
+                </div>
+                <div class="title">
+                  ក្រុមហ៊ុនសាមសុង
+                  រៀបចំនូវកម្មវិធីជប់លៀងដ៏ពិសេសមួយដែលជាពិធីជួបជុំយ៉ាងអាធិកអធមរវាងគណៈគ្រប់គ្រងរបស់ក្រុមហ៊ុនសាមសុង
+                  អាជីវករលក់ដុំ លក់រាយគ្រឿងបរិក្ខារអេឡិចត្រូនិចសាមសុងទូទាំងប្រទេស
+                  និងស្ថាប័នអ្នកសារព័ត៌មានជាច្រើនក្រោមបរិយាកាសសប្បាយរីករាយ
+                  និងក្តីសោមនស្សស្រស់ស្រាយបំផុតដែលមិនអាចបំភ្លេចបាននៅសណ្ឋាគារ ហ្គាឌិន ស៊ីធី ភ្នំពេញ។
+                </div>
+              </a>
+            </div>
+            <div class="news-card">
+              <a href="other_page/Technology/other-tech-page/new8.html">
+                 <div class="news-pic">
+                   <img src="other_page/Technology/new8 image/1.jpg" alt="">
+                  </div>
+                <div class="title">
+                   សមាគមន៏ KHNOG នឹងរៀបចំសិក្ខាសាលាស្ដីអំពី ចំណេះដឹងក្នុងវិស័យITនិងបច្ចេកវិទ្យាថ្មីៗ នៅថ្ងៃទី២០ ខែវិច្ឆិកា
+                  ខាងមុខនេះ
+                </div>
+              </a>
+            </div>
+            <div class="news-card">
+              <a href="other_page/Technology/other-tech-page/new2.html">
+                  <div class="news-pic">
+                    <img src="other_page/Technology/new2 image/1.jpeg" alt="">
+                  </div>
+                <div class="title">
+                  ក្រុមហ៊ុន EZECOM ឈ្នះពានរង្វាន់ «ស្ថាប័ននវានុវត្តន៍ឌីជីថលល្អបំផុតប្រចាំឆ្នាំ»
+                  ពីកម្មវិធីពានរង្វាន់ឌីជីថលកម្ពុជាឆ្នាំ២០២២
+                </div>
+              </a>
+            </div>
+            <div class="news-card">
+              <a href="other_page/Technology/other-tech-page/new3.html">
+                 <div class="news-pic">
+                    <img src="other_page/Technology/new3 image/1.jpeg" alt="">
+                  </div>
+                  <div class="title">
+                   ចាប់ផ្ដើមថ្ងៃនេះ សន្និសីទ និងពិព័រណ៍បច្ចេកវិទ្យាឌីជីថល ធុរកិច្ចថ្មីទិសពាយ័ព្យ “Barcamp DigiTech 2022”
+                   នៅបាត់ដំបង
+                </div>
+              </a>
+            </div>
+            <div class="news-card">
+              <a href="other_page/Technology/other-tech-page/new4.html">
+                <div class="news-pic">
+                  <img src="other_page/Technology/new4 image/1.jpeg" alt="">
+                </div>
+                <div class="title">
+                  Apple នឹងត្រូវអនុញ្ញាតឲ្យអ្នកប្រើប្រាស់ដំឡើងកម្មវិធីពីក្រៅបាន ចាប់ផ្ដើមពី iOS 17 នៅឆ្នាំក្រោយតទៅ
+                </div>
+              </a>
+            </div>
+            <div class="news-card">
+              <a href="other_page/Technology/other-tech-page/new5.html">
+                <div class="news-pic">
+                  <img src="other_page/Technology/new5 image/1.png" alt="">
+                </div>
+                <div class="title">
+                  Google បានចែករំលែកអំពីពាក្យដែលមានអ្នក Search ច្រើនជាងគេប្រចាំឆ្នាំ 2022 នេះហើយ
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="mt-4 mb-3 border rounded" id="more-tech">
+            <a href="other_page/tech.html">
+              View More
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="black-bg"></div>
+    </div>
+    <div style="background: linear-gradient(-100deg,rgba(255,255,255,1) 5%, #cdd7a7);" class="m-0 sponsor d-flex align-items-center">
+      <h1 style="color: white;">
+        Sponsor
+      </h1>
+    </div>
+    <section class="d-flex flex-column justify-content-center containe-fluid p-5">
+      <div id="Sport" class="p-0 container-fluid mb-5">
+        <div style="border-radius: 40px; height: 500px;"
+          class="m-0 d-flex w-100 text-white align-items-center p-5 sport">
+          <div class="col-6 w-100 container">
+            <div class="d-flex align-items-center justify-content-center w-100">
+              <div class="d-flex flex-column align-items-end">
+                <h1 id="news-name-banner">
+                  Sport
+                </h1>
+                <a href="other_page/sport.html" class="font-weight-normal" id="view-more">
+                  View More
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="Entertainment" class="p-0 container-fluid mb-5">
+        <div style="border-radius: 40px; height: 500px;"
+          class="m-0 d-flex w-100 text-white align-items-center p-5 enter">
+          <div class="col-6 w-100 container">
+            <div class="d-flex align-items-center justify-content-center w-100">
+              <div class="d-flex flex-column align-items-end">
+                <h1 id="news-name-banner">
+                  Entertainment
+                </h1>
+                <a href="other_page/entertainment.html" class="font-weight-normal" id="view-more">
+                  View More
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="Society" class="p-0 container-fluid mb-5">
+        <div style="border-radius: 40px; height: 500px;"
+          class="m-0 d-flex w-100 text-white align-items-center p-5 soci">
+          <div class="col-6 w-100 container">
+            <div class="d-flex align-items-center justify-content-center w-100">
+              <div class="d-flex flex-column align-items-end">
+                <h1 id="news-name-banner">
+                  Society
+                </h1>
+                <a href="other_page/society.html" class="font-weight-normal" id="view-more">
+                  View More
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="footer-content-wrap">
+      <div class="d-flex justify-content-between">
+        <div class="address">
+          <div class="title">
+            Address
+          </div>
+          <div class="description">
+            <img class="icons" src="resources/nav-icons/address.png" alt="">
+            <span>
+              Bridge 2, National Road 6A, Sangkat Prek Leap, Khan Chroy Changva, Phnom Penh
+            </span>
+          </div>
+        </div>
+        <div class="line"></div>
+        <div class="About-Us">
+          <div class="title">
+            About Us
+          </div>
+          <div class="description">
+            <div>
+              Reading news has been overlooked by such a large margin of people... <br>
+              <span>
+                <!-- need hover effect -->
+                <a class="read-more" style="color: rgba(81, 115, 236, 1) !important;" href="other_page/aboutUs.html" title="About Us">
+                  Read More <span style="vertical-align: middle;" class="arrow_right"></span>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="line"></div>
+        <div class="News">
+          <div class="title">
+            News
+          </div>
+          <ul>
+            <li><a href="other_page/tech.html">Technology</a></li>
+            <li><a href="other_page/sport.html">Sports</a></li>
+            <li><a href="other_page/entertainment.html">Entertainment</a></li>
+            <li><a href="other_page/society.html">Society</a></li>
+          </ul>
+        </div>
+        <div class="line"></div>
+
+        <div class="Contact">
+          <div class="title">
+            Team Member
+          </div>
+          <div class="description">
+            <div>
+              <span id="member">
+                Khoun Sovansunchhay
+                <span class="arrow_carrot-down"></span>
+                <div id="tooltip">
+                  <a href=""><img class="icons" src="resources/social-icons/facebook.png" title="Follow on Facebook" alt="">Facebook</a>
+                  <a href=""><img class="icons" src="resources/social-icons/telegram.png" title="Follow on Telegram" alt="">Telegram</a>
+                </div>
+              </span>
+            </div>
+            <div>
+              <span id="member">
+                Gnep Vanndara
+                <span class="arrow_carrot-down"></span>
+                <div id="tooltip">
+                  <a href=""><img class="icons" src="resources/social-icons/facebook.png" title="Follow on Facebook" alt="">Facebook</a>
+                  <a href=""><img class="icons" src="resources/social-icons/telegram.png" title="Follow on Telegram" alt="">Telegram</a>
+                </div>
+              </span>
+            </div>
+            <div>
+              <span id="member">
+                Hy Kimmeng
+                <span class="arrow_carrot-down"></span>
+                <div id="tooltip">
+                  <a href=""><img class="icons" src="resources/social-icons/facebook.png" title="Follow on Facebook" alt="">Facebook</a>
+                  <a href=""><img class="icons" src="resources/social-icons/telegram.png" title="Follow on Telegram" alt="">Telegram</a>
+                </div>
+              </span>
+            </div>
+            <div>
+              <span id="member">
+                Bou Taihor
+                <span class="arrow_carrot-down"></span>
+                <div id="tooltip">
+                  <a href=""><img class="icons" src="resources/social-icons/facebook.png" title="Follow on Facebook" alt="">Facebook</a>
+                  <a href=""><img class="icons" src="resources/social-icons/telegram.png" title="Follow on Telegram" alt="">Telegram</a>
+                </div>
+              </span>
+            </div>
+            <div>
+              <span id="member">
+                Chea Chungheang
+                <span class="arrow_carrot-down"></span>
+                <div id="tooltip">
+                  <a href=""><img class="icons" src="resources/social-icons/facebook.png" title="Follow on Facebook" alt="">Facebook</a>
+                  <a href=""><img class="icons" src="resources/social-icons/telegram.png" title="Follow on Telegram" alt="">Telegram</a>
+                </div>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <p class="end" style="text-align:center; font-size: 1.7em;">
+      Made by Group 1&trade;
+    </p>
+  </footer>
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'Niradei';
+  src: url(../styles/fonts/Niradei-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Niradei Bold';
+  src: url(../styles/fonts/Niradei-Bold.ttf);
+}
+
+body{
+  margin: 0;
+}
+
+a{
+  text-decoration: none !important;
+  color: inherit !important;
+}
+html{
+  scroll-behavior: smooth;
+}
+
